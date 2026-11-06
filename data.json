@@ -1,0 +1,120 @@
+{
+  "settings": {
+    "schoolName": "Laksmi Driving School",
+    "tagline": "Your Journey to Confident Driving Starts Here",
+    "ownerName": "Shanmugam V",
+    "address": "Kandiyur, Vadhiyam Post",
+    "district": "Karur District",
+    "state": "Tamil Nadu",
+    "country": "India",
+    "pincode": "639114",
+    "contactNumber": "9976514300",
+    "whatsappNumber": "9976514300",
+    "email": "contact@laksmidrivingschool.com",
+    "gpayNumber": "9597582972",
+    "upiId": "9597582972@okaxis",
+    "schoolLogo": "",
+    "workingHours": "07:00 AM - 07:00 PM (Mon - Sat)",
+    "termsAndConditions": "1. Trainees must carry original ID proof during training.\n2. Full payment required before final RTO practical test submission.\n3. Attendance changes must be notified 24 hours in advance."
+  },
+  "users": [
+    {
+      "id": "user_owner_1",
+      "role": "owner",
+      "name": "Shanmugam V",
+      "phone": "9976514300",
+      "password": "admin123",
+      "createdAt": "2026-08-12"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course_2w",
+      "name": "Two-Wheeler (Gear)",
+      "vehicleType": "two_wheeler",
+      "fee": 3500,
+      "durationDays": 15,
+      "syllabus": [
+        "Balance & clutch control",
+        "Gear shifting practice",
+        "Road rules & signals",
+        "Traffic riding practice",
+        "Final test preparation"
+      ]
+    },
+    {
+      "id": "course_4w",
+      "name": "Four-Wheeler (LMV)",
+      "vehicleType": "four_wheeler",
+      "fee": 6000,
+      "durationDays": 21,
+      "syllabus": [
+        "Vehicle controls & mirrors",
+        "Clutch-brake coordination",
+        "Reverse & parking",
+        "City traffic driving",
+        "Highway driving",
+        "Final test preparation"
+      ]
+    },
+    {
+      "id": "course_hv",
+      "name": "Commercial / Heavy Vehicle (HMV)",
+      "vehicleType": "commercial",
+      "fee": 12000,
+      "durationDays": 30,
+      "syllabus": [
+        "Heavy vehicle controls",
+        "Air brake system",
+        "Loading & maneuvering",
+        "Long-route driving",
+        "Night driving practice",
+        "RTO test preparation"
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "veh_1",
+      "name": "Maruti Swift (LMV 1)",
+      "type": "four_wheeler",
+      "regNo": "TN-01-AB-1234",
+      "status": "active"
+    },
+    {
+      "id": "veh_2",
+      "name": "Hyundai i10 (LMV 2)",
+      "type": "four_wheeler",
+      "regNo": "TN-01-CD-5678",
+      "status": "active"
+    },
+    {
+      "id": "veh_3",
+      "name": "Honda Shine (2W 1)",
+      "type": "two_wheeler",
+      "regNo": "TN-01-EF-9012",
+      "status": "active"
+    },
+    {
+      "id": "veh_4",
+      "name": "Tata Eicher (HMV 1)",
+      "type": "commercial",
+      "regNo": "TN-01-GH-3456",
+      "status": "active"
+    }
+  ],
+  "bookings": [],
+  "waitlists": [],
+  "payments": [],
+  "activity": [
+    {
+      "id": "act_1786470183717_25741",
+      "actorId": "system",
+      "actorName": "System Backend",
+      "actorRole": "system",
+      "action": "Backend process initialized",
+      "detail": "Lakshmi Driving School backend server started successfully.",
+      "timestamp": "2026-08-11T17:43:03.717Z"
+    }
+  ]
+}
